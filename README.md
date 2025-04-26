@@ -1,33 +1,58 @@
-# HiDrive Study 2
+# Master’s Thesis
 
-This project processes, aggregates, and analyzes eye-tracking data collected during the HiDrive Study 2. The data involves multiple participants and includes various metrics organized in multiple CSV files such as blinks, fixations, gaze positions, and pupil positions from Pupil Core, task performance markers from iMotions and questionnaire responses.
+```markdown
+This thesis has been completed for the Master's in Human-Computer Interaction at the University of Trento, in collaboration with the Transportation Institute of the German Aerospace Center (DLR) in Braunschweig, as part of the European Hi-Drive project.
+```
 
-This repository at the moment is mantained by Andrea Valerio as it is also part of his Master's Thesis.
+## Analyzing Spatial Eye-Tracking Data of Teleoperators to Assess Workload in Automotive Fleet Management
 
-## Project Structure
+## Abstract
+With the rise of partially automated vehicles, teleoperation has emerged as a critical mechanism for remote fleet management. This thesis develops and validates spatial Area-of-Interest (AoI) metrics from eye-tracking data to assess teleoperator cognitive workload. By manipulating task difficulty and presentation frequency in a controlled user study (and incorporating an additional dataset), six AoI metrics (fixation duration, fixation frequency, dwell time, visit frequency, time-to-first fixation, and stationary gaze entropy) were computed over five interface panels. Inferential analyses (two-way ANOVAs) evaluated the effects of difficulty and frequency (RQ1 & RQ2), while predictive models (SVM, Decision Trees, Random Forest, GBM, XGB, MLP with various sampling techniques) classified binary and multi-level workload states (RQ3). Results confirm workload-driven changes in ocular behavior, demonstrate high predictive performance (> 85 % recall for binary states), and underscore the value of AoI metrics for adaptive HMI design.
 
-### Main Directories
+⸻
 
-- **aggregated_data/**: Contains aggregated CSV files for different eye-tracking metrics.
-- **cleaned_data/**: Processed and cleaned data ready for analysis.
-- **exports/**: post-processing Pupil Core data exports.
-- **iMotions/**: iMotions export data and related files.
-- **recordings/**: Original recordings used in the study from Pupil
+## Repository Structure
 
-### Notebooks Explanation
+ANALYSIS_OPEN_SOURCE/
+├─ aggregated_data/        # Metric-wise aggregated CSVs (raw) *
+├─ aoi_data/               # Extracted features CSVs
+├─ cleaned_data/           # Cleaned intermediate datasets *
+├─ exports/                # Raw data *
+├─ iMotions/               # iMotions logs (performance & psychophysiological) *
+├─ info_players/           # Eye-tracking visualization data *
+├─ libraries/              # Utility modules and helper scripts
+├─ questionnaire_data/     # NASA-TLX and other survey responses *
+├─ recordings/             # Session video exports with overlays *
+└─ *.ipynb                 # Numbered analysis notebooks:
+   ├─ **1-***              # Raw data preparation
+   ├─ **2-***              # Raw data assessment & export
+   ├─ **3-***              # Data cleaning & assessment
+   ├─ **4-***              # Feature extraction (AoI metrics)
+   ├─ **5-***              # Validation analyses (manipulation, performance, AoI division)
+   ├─ **6-***              # Inferential analysis of RQ1 (difficulty & frequency effects)
+   ├─ **7-***              # Inferential analysis of RQ2
+   ├─ **8-***              # Predictive modeling: binary workload classifiers
+   ├─ **9-***              # Predictive modeling: modulators (difficulty/frequency)
+   ├─ data_description.txt  # Overview of raw variables and data formats
+   ├─ files_description.txt # Descriptions of raw folders and file conventions
+   └─ README.md             # This file
 
-- **1-data_preparation.ipynb**: Prepares and aggregates the raw data from Pupil Core and iMotions.
-- **1-file_synchronization.ipynb**: Checks feasibility and prepares synchronization of different files.
-- **2-[parameter]_export_assess.ipynb**: Assesses quality and goodness of the data within parameters.
-- **2-inter-parameter_assessment.ipynb**: Assesses possible correlation and relationship among parameters.
-- **3-data_cleaning.ipynb**: Cleanes filees from unusable data.
+(*) Note: Raw data files are not included in this repository for practical and privacy reasons; only extracted feature datasets are provided.
 
-### Other Files
-Other files within the repository are just to support the documentation and report of certain results.
+## Dependencies & Environment
+	•	Python 3.10+
+	•	pandas, numpy, scipy
+	•	scikit-learn, xgboost
+	•	statsmodels, pingouin
+	•	matplotlib
+	•	R 4.1+ (for ART analyses)
+	•	ARTool, lme4
+	•	Jupyter Notebook/Lab
+	•	iMotions (for original raw-data visualization; processed logs included)
+	•	SoSci (for original questionnaire data collection)
 
-## Main Dependencies
+⸻
 
-- **Python 3.11**
-- **Pandas**
-- **NumPy**
-- **Dask**
+## Publication & Presentation
+
+This work is slated for submission to Mensch und Computer 2025 (Chemnitz, 31 Aug – 3 Sep 2025). Analyses will be expanded in the conference proceedings.
