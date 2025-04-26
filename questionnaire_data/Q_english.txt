@@ -1,0 +1,236 @@
+Interview number (consecutive)
+Serial number (if used)
+Reference (if given in the link)
+Questionnaire used in the interview
+Interview mode
+Time at which the interview started (Europe/Berlin)
+
+ACCEPTANCE SCALE (1-5)
+AS01_01: Useful/Useless
+AS01_02: Pleasant/Unpleasant
+AS01_03: Bad/Good
+AS01_04: Nice/Annoying
+AS01_05: Effective/Superfluous
+AS01_06: Irritating/Likeable
+AS01_07: Assisting/Worthless
+AS01_08: Undesirable/Desirable
+AS01_09: Raising Alertness/Sleep-inducing 
+
+AFFINITY FOR TECHNOLOGY INTERACTION (1-5)
+AT02_01: I like to occupy myself in greater detail with technical systems.
+AT02_02: I like testing the functions of new technical systems.
+AT02_03: I predominantly deal with technical systems because I have to.
+AT02_04: When I have a new technical system in front of me, I try it out intensively. 
+AT02_05: I enjoy spending time becoming acquainted with a new technical system. 
+AT02_06: It is enough for me that a technical system works; I don’t care how or why. 
+AT02_07: I try to understand how a technical system exactly works.
+AT02_08: It is enough for me to know the basic functions of a technical system. 
+AT02_09: I try to make full use of the capabilities of a technical system. 
+
+COMPUTER GAME ATTITUDE SCALE 
+Cognitive - Confidence:
+C103_01: I am good at playing computer games.
+C103_02: Playing computer games is easy for me. 
+C103_03: I understand and play computer games well.
+C103_04: I am skilled at playing computer games.
+Cognitive - Learning:
+C103_05: I like taking courses that use computers. 
+C103_06: Using computer games in school is a good way to learn.
+C103_07: Playing computer games improves my eye and hand coordination. 
+C103_08: Playing computer games enhances my imagination. 
+Affection - Liking:
+C103_09: I like it when people talk about computer games.
+C103_10: I feel comfortable while playing computer games.
+C103_11: I am very interested in solving quest/questions/missions in computer games.
+C103_12: I always try to solve the current quest/question/mission in the computer game.
+Behavior - Leisure
+C103_13: Playing computer games makes me happy.
+C103_14: Playing computer games is part of my life.
+C103_15: When I have free time, I play computer games.
+C103_16: I talk about computer games with my friends.
+C103_17: I am not alone in a computer game as I can make friends there.
+
+
+DF01_01: Participant number
+ID: Condition (order)
+
+DRIVER BEHAVIOR QUESTIONNAIRE (1, 6)
+DQ02_01: You try to start at the traffic lights in the wrong gear.
+DQ02_02: You are annoyed by a slow vehicle driving on the left on the highway and overtake it on the right.
+DQ02_03: You drive close to a vehicle in front of you to signal to the driver that he should drive faster or leave your lane.
+DQ02_04: You try to overtake someone and do not notice that he is already signaling left and wants to turn.
+DQ02_05: You have forgotten where you parked the car in the parking garage or parking lot.
+DQ02_06: You accidentally press a switch (e.g. for the indicator) even though you actually wanted to press another one (e.g. for the windshield wipers).
+DQ02_07: You realize that you don't actually know exactly what the route you have just driven looked like.
+DQ02_08: You drive through a traffic light even though you know that you should actually stop.
+DQ02_09: You fail to notice pedestrians crossing the road when turning.
+DQ02_10: You get annoyed with another driver and chase after them to show them what you think of them.
+DQ02_11: You take the wrong exit at a roundabout.
+DQ02_12: You ignore speed limits at night or when traffic is light.
+DQ02_13: You turn right and almost collide with a cyclist going straight ahead.
+DQ02_14: You turn into a priority road so attentively that you almost hit the car in front of you in your lane.
+DQ02_15: You drive despite knowing that you may have drunk more alcohol than the legal limit.
+DQ02_16: You dislike a certain type of driver and you show it to them whenever you can.
+DQ02_17: You underestimate the speed of an oncoming vehicle when overtaking.
+DQ02_18: You back into something you didn't see before.
+DQ02_19: You want to drive to A and suddenly realize that you are on the way to B, e.g. because you usually drive to B.
+DQ02_20: You get into the wrong lane at an intersection.
+DQ02_21: You overlook a "give way" sign and almost collide with a road user who has the right of way.
+DQ02_22: You fail to look in the rear-view mirror when changing lanes, before getting out of the car, etc.
+DQ02_23: You get involved in races with other drivers.
+DQ02_24: You brake too sharply on a slippery road or do not steer properly, causing you to skid.
+
+(?) REQUIREMENTS (1, 9)
+FL04_01: Relationship3: For me personally, the current requirements are...
+FL05_01: Relationship3: For me personally, the current requirements are...
+FL06_01: Relationship3: For me personally, the current requirements are...
+FL07_01: Relationship3: For me personally, the current requirements are...
+FL08_01: Relationship3: For me personally, the current requirements are...
+FL09_01: Relationship3: For me personally, the current requirements are...
+FL10_01: Relationship3: For me personally, the current requirements are...
+FL11_01: Relationship3: For me personally, the current requirements are...
+
+(?) DEMOGRAPHIC
+SA01: Age: ... years
+SA02: Gender
+SA03: Nationality
+SA04: Occupation / course of study
+SA04_01: Occupation / course of study: Study
+SA04_02: Occupation / course of study: Profession
+SA05: Degree
+SA05_09: Degree: Other (please specify)
+SA07: Car frequency
+
+VIDEOGAME FREQUENCY (1, 6)
+SA22_01: Video games in general
+SA22_02: Adventure
+SA22_03: Action
+SA22_04: Casual game
+SA22_05: Indie
+SA22_06: MMO (Massively Multiplayer Online)
+SA22_07: Racing game
+SA22_08: Role-playing game
+SA22_09: Simulation
+SA22_10: Sports
+SA22_11: Strategy
+
+(?) AV AND RO QUESTIONS (mixed)
+SA08_01: Car mileage: I drove ... km in the last 12 months.
+SA09: AV knowledge
+SA10_01: AV interest: [No description] 01
+SA11 AV ride-along
+SA12: RO experience
+SA12_01: RO experience: Yes [Please specify]
+
+PRIVACY
+Accept data protection: Alternative option (negative) or number of selected options
+Accept data protection: Processing of research data
+Accept data protection: Contacting us
+Accept data protection: Compensation for test subjects
+Accept patient information: Alternative option (negative) or number of selected options
+Accept patient information: I have read and understood all information in the test subject information for the scientific study “RemoteOperation.HMI: Hi-Drive Study 2”.
+Accept patient information: I agree that all data will be used as described in this study.
+Accept patient information: I agree that the conversation, eye and body movements and physiological data (see privacy policy) will be recorded for research and documentation purposes.
+Accept patient information: I am participating in this study voluntarily.
+Declaration of commitment: Alternative option (negative) or number of selected options
+Declaration of commitment: I accept the conditions stated above.
+
+SYSTEM USABILITY SCALE (1, 5)
+SU02_01: I think that I would like to use this system frequently for a job as a remote operator.
+SU02_02: I found the system unnecessarily complex.
+SU02_03: I thought the system was easy to use.
+SU02_04: I think that I would need the support of a technical person to be able to use this system.
+SU02_05: I found the various functions of the system were well integrated.
+SU02_06: I thought there was too much inconsistency in this system.
+SU02_07: I would imagine that most people would learn to use this system very quickly.
+SU02_08: I found the system very cumbersome to use.
+SU02_09: I felt very confident using the system.
+SU02_10: I needed to learn a lot of things before I could get going with this system.
+
+NASA TASK-LOAD INDEX (1, 21)
+T103_01: How much mental and perceptual activity was required? Was the task easy or demanding, simple or complex?
+T103_04: How successful were you in performing the task? How satisfied were you with your performance?
+T103_05: How hard did you have to work (mentally and physically) to accomplish your level of performance?
+T103_06: How irritated, stressed, and annoyed versus content, relaxed, and complacent did you feel during the task?
+T103_07: How much time pressure did you feel due to the pace at which the tasks or task elements occurred? Was the pace slow or rapid?
+
+T104_01: How much mental and perceptual activity was required? Was the task easy or demanding, simple or complex?
+T104_04: How successful were you in performing the task? How satisfied were you with your performance?
+T104_05: How hard did you have to work (mentally and physically) to accomplish your level of performance?
+T104_06: How irritated, stressed, and annoyed versus content, relaxed, and complacent did you feel during the task?
+T104_07: How much time pressure did you feel due to the pace at which the tasks or task elements occurred? Was the pace slow or rapid?
+
+T105_01: How much mental and perceptual activity was required? Was the task easy or demanding, simple or complex?
+T105_04: How successful were you in performing the task? How satisfied were you with your performance?
+T105_05: How hard did you have to work (mentally and physically) to accomplish your level of performance?
+T105_06: How irritated, stressed, and annoyed versus content, relaxed, and complacent did you feel during the task?
+T105_07: How much time pressure did you feel due to the pace at which the tasks or task elements occurred? Was the pace slow or rapid?
+
+T106_01: How much mental and perceptual activity was required? Was the task easy or demanding, simple or complex?
+T106_04: How successful were you in performing the task? How satisfied were you with your performance?
+T106_05: How hard did you have to work (mentally and physically) to accomplish your level of performance?
+T106_06: How irritated, stressed, and annoyed versus content, relaxed, and complacent did you feel during the task?
+T106_07: How much time pressure did you feel due to the pace at which the tasks or task elements occurred? Was the pace slow or rapid?
+
+T107_01: How much mental and perceptual activity was required? Was the task easy or demanding, simple or complex?
+T107_04: How successful were you in performing the task? How satisfied were you with your performance?
+T107_05: How hard did you have to work (mentally and physically) to accomplish your level of performance?
+T107_06: How irritated, stressed, and annoyed versus content, relaxed, and complacent did you feel during the task?
+T107_07: How much time pressure did you feel due to the pace at which the tasks or task elements occurred? Was the pace slow or rapid?
+
+T108_01: How much mental and perceptual activity was required? Was the task easy or demanding, simple or complex?
+T108_04: How successful were you in performing the task? How satisfied were you with your performance?
+T108_05: How hard did you have to work (mentally and physically) to accomplish your level of performance?
+T108_06: How irritated, stressed, and annoyed versus content, relaxed, and complacent did you feel during the task?
+T108_07: How much time pressure did you feel due to the pace at which the tasks or task elements occurred? Was the pace slow or rapid?
+
+T109_01: How much mental and perceptual activity was required? Was the task easy or demanding, simple or complex?
+T109_04: How successful were you in performing the task? How satisfied were you with your performance?
+T109_05: How hard did you have to work (mentally and physically) to accomplish your level of performance?
+T109_06: How irritated, stressed, and annoyed versus content, relaxed, and complacent did you feel during the task?
+T109_07: How much time pressure did you feel due to the pace at which the tasks or task elements occurred? Was the pace slow or rapid?
+
+T110_01: How much mental and perceptual activity was required? Was the task easy or demanding, simple or complex?
+T110_04: How successful were you in performing the task? How satisfied were you with your performance?
+T110_05: How hard did you have to work (mentally and physically) to accomplish your level of performance?
+T110_06: How irritated, stressed, and annoyed versus content, relaxed, and complacent did you feel during the task?
+T110_07: How much time pressure did you feel due to the pace at which the tasks or task elements occurred? Was the pace slow or rapid?
+
+SURVEY INFO
+Length of stay page 1
+Length of stay page 2
+Length of stay page 3
+Length of stay page 4
+Length of stay page 5
+Length of stay page 6
+Length of stay page 7
+Length of stay page 8
+Length of stay page 9
+Length of stay page 10
+Length of stay page 11
+Length of stay page 12
+Length of stay page 13
+Length of stay page 14
+Length of stay page 15
+Length of stay page 16
+Length of stay page 17
+Length of stay page 18
+Length of stay page 19
+Length of stay page 20
+Length of stay page 21
+Length of stay page 22
+Length of stay page 23
+Length of stay page 24
+Length of stay page 25
+Length of stay page 26
+Total length of stay (without outliers)
+Time of sending of the invitation email (only for non-anonymous recipients)
+Time when the data set was last changed was
+Was the survey completed (last page reached)?
+Did the participant just look at the questionnaire without answering the mandatory questions?
+Page that the participant last worked on
+Last page that was worked on in the questionnaire
+Percentage of missing answers
+Percentage of missing answers (weighted by relevance)
+Payback points for completing the questionnaire quickly
+Payback points for completing the questionnaire quickly

@@ -1,0 +1,361 @@
+-----------------------------------------------------
+
+PARTICIPANT 1
+-> From logging to gui
+Len of log df: 381
+Len of gui df for log: 380
+Marker discrepancies: 0
+Offset mean log to gui: 1710323060.3188689
+Offset std log to gui: 0.0034637575221746837
+
+-> From gui to pupil
+Len of gui df: 70
+Len of pupil df: 2000704
+Len of gui trimsort df: 28
+Len of pupil trimsort df: 1433580
+
+-> Results
+Tolerance: 0.4
+Len of merge asof df: 1433580
+Matched values in x (pupil): 3
+Mean offset merged asof: 1710323060.7037332
+Std offset merged asof: 0.008253062139110779
+
+-----------------------------------------------------
+
+PARTICIPANT 2
+-> From logging to gui
+Len of log df: 652
+Len of gui df for log: 627
+Marker discrepancies: 0
+Offset mean log to gui: 1710331381.5800118
+Offset std log to gui: 0.001420694742363354
+
+-> From gui to pupil
+Len of gui df: 1602092
+Len of pupil df: 1516112
+Len of gui trimsort df: 1513390
+Len of pupil trimsort df: 1512184
+
+-> Results
+Len of merge asof df: 1512184
+NaN values in y (gui): 1510824
+Mean offset merged asof: 1710331381.5763953
+Std offset merged asof: 0.03538059249338528
+
+-----------------------------------------------------
+
+!!! PARTICIPANT 4 doesn't contain required columns
+
+-----------------------------------------------------
+
+!!! PARTICIPANT 5 doesn't contain required columns
+
+-----------------------------------------------------
+
+!!! PARTICIPANT 6 doesn't contain required columns
+
+-----------------------------------------------------
+
+!!! PARTICIPANT 7 doesn't contain required columns
+
+-----------------------------------------------------
+
+PARTICIPANT 8
+-> From logging to gui
+Len of log df: 650
+Len of gui df for log: 650
+Marker discrepancies: 0
+Offset mean log to gui: 1710841379.7481813
+Offset std log to gui: 0.00043112480059667165
+
+-> From gui to pupil
+Len of gui df: 1597490
+Len of pupil df: 1587380
+Len of gui trimsort df: 1587378
+Len of pupil trimsort df: 1587380
+
+-> Results
+Tolerance: 0.02
+Len of merge asof df: 1587380
+Matched values in x (pupil): 1272209
+Mean offset merged asof: 1710841379.7298098
+Std offset merged asof: 0.002654590308012348
+
+-----------------------------------------------------
+
+PARTICIPANT 9
+-> From logging to gui
+Len of log df: 701
+Len of gui df for log: 701
+Marker discrepancies: 0
+Offset mean log to gui: 1710859458.4675896
+Offset std log to gui: 0.0004033299543083013
+
+-> From gui to pupil
+Len of gui df: 1615273
+Len of pupil df: 1606684
+Len of gui trimsort df: 1606680
+Len of pupil trimsort df: 1606684
+
+-> Results
+Tolerance: 0.03
+Len of merge asof df: 1606684
+Matched values in x (pupil): 1541084
+Mean offset merged asof: 1710859458.4487002
+Std offset merged asof: 0.0019606005221617867
+
+-----------------------------------------------------
+
+PARTICIPANT 10
+-> From logging to gui
+Len of log df: 862
+Len of gui df for log: 862
+Marker discrepancies: 0
+Offset mean log to gui: 1711021383.8741727
+Offset std log to gui: 0.017047609556145846
+
+-> From gui to pupil
+Len of gui df: 1633102
+Len of pupil df: 1632188
+Len of gui trimsort df: 1629914
+Len of pupil trimsort df: 1629910
+
+-> Results
+Tolerance: 0.03
+Len of merge asof df: 1629910
+Matched values in x (pupil): 1566274
+Mean offset merged asof: 1711021383.8964255
+Std offset merged asof: 0.002596132207761823
+
+-----------------------------------------------------
+
+PARTICIPANT 11
+-> From logging to gui
+Len of log df: 668
+Len of gui df for log: 668
+Marker discrepancies: 0
+Offset mean log to gui: 1711032498.185927
+Offset std log to gui: 0.0007103741924414046
+
+-> From gui to pupil
+Len of gui df: 1610158
+Len of pupil df: 1602898
+Len of gui trimsort df: 1602896
+Len of pupil trimsort df: 1602898
+
+-> Results
+Tolerance: 0.03
+Len of merge asof df: 1602898
+Matched values in x (pupil): 1539579
+Mean offset merged asof: 1711032498.1677978
+Std offset merged asof: 0.0016050413399801406
+
+-----------------------------------------------------
+
+PARTICIPANT 12
+-> From logging to gui
+Len of log df: 587
+Len of gui df for log: 587
+Marker discrepancies: 0
+Offset mean log to gui: 1711100165.7800179
+Offset std log to gui: 0.025958438775592937
+
+-> From gui to pupil
+Len of gui df: 1602092
+Len of pupil df: 1603490
+Len of gui trimsort df: 1599894
+Len of pupil trimsort df: 1599896
+
+-> Results
+Tolerance: 0.1
+Len of merge asof df: 1599896
+Matched values in x (pupil): 1511151
+Mean offset merged asof: 1711100165.706887
+Std offset merged asof: 0.008953334304134418
+
+-----------------------------------------------------
+
+PARTICIPANT 13
+-> From logging to gui
+Len of log df: 731
+Len of gui df for log: 731
+Marker discrepancies: 0
+Offset mean log to gui: 1711109586.645286
+Offset std log to gui: 0.0012212114399760617
+
+-> From gui to pupil
+Len of gui df: 1628800
+Len of pupil df: 1815666
+Len of gui trimsort df: 1628800
+Len of pupil trimsort df: 1628796
+
+-> Results
+Tolerance: 0.03
+Len of merge asof df: 1628796
+Matched values in x (pupil): 1537283
+Mean offset merged asof: 1711109586.6234353
+Std offset merged asof: 0.002252080743393519
+
+-----------------------------------------------------
+
+PARTICIPANT 14
+-> From logging to gui
+Len of log df: 603
+Len of gui df for log: 603
+Marker discrepancies: 0
+Offset mean log to gui: 1711115745.0968907
+Offset std log to gui: 0.0004957590879304828
+
+-> From gui to pupil
+Len of gui df: 646012
+Len of pupil df: 1715122
+Len of gui trimsort df: 646012
+Len of pupil trimsort df: 646008
+
+-> Results
+Tolerance: 0.03
+Len of merge asof df: 646008
+Matched values in x (pupil): 610069
+Mean offset merged asof: 1711115745.0770855
+Std offset merged asof: 0.001826714344806407
+
+-----------------------------------------------------
+
+PARTICIPANT 15
+-> From logging to gui
+Len of log df: 769
+Len of gui df for log: 769
+Marker discrepancies: 0
+Offset mean log to gui: 1711380580.8770242
+Offset std log to gui: 0.09517725474946406
+
+-> From gui to pupil
+Len of gui df: 1634396
+Len of pupil df: 1629650
+Len of gui trimsort df: 1628384
+Len of pupil trimsort df: 1628384
+
+-> Results
+Tolerance: 0.3
+Len of merge asof df: 1628384
+Matched values in x (pupil): 1543944
+Mean offset merged asof: 1711380580.6615686
+Std offset merged asof: 0.02498242118477865
+
+-----------------------------------------------------
+
+PARTICIPANT 16
+-> From logging to gui
+Len of log df: 811
+Len of gui df for log: 811
+Marker discrepancies: 0
+Offset mean log to gui: 1711465166.263667
+Offset std log to gui: 0.024320701170818405
+
+-> From gui to pupil
+Len of gui df: 1552440
+Len of pupil df: 1856948
+Len of gui trimsort df: 1552440
+Len of pupil trimsort df: 1552436
+
+-> Results
+Tolerance: 0.03
+Len of merge asof df: 1552436
+Matched values in x (pupil): 34356
+Mean offset merged asof: 1711465166.2651808
+Std offset merged asof: 0.006965123911033478
+
+-----------------------------------------------------
+
+PARTICIPANT 17
+-> From logging to gui
+Len of log df: 649
+Len of gui df for log: 649
+Marker discrepancies: 0
+Offset mean log to gui: 1711530420.3932629
+Offset std log to gui: 0.028258944794502312
+
+-> From gui to pupil
+Len of gui df: 1603439
+Len of pupil df: 1602598
+Len of gui trimsort df: 1601447
+Len of pupil trimsort df: 1601448
+
+-> Results
+Tolerance: 0.2
+Len of merge asof df: 1601448
+Matched values in x (pupil): 1511531
+Mean offset merged asof: 1711530420.2930207
+Std offset merged asof: 0.005961296218748378
+
+-----------------------------------------------------
+
+PARTICIPANT 18
+-> From logging to gui
+Len of log df: 815
+Len of gui df for log: 815
+Marker discrepancies: 0
+Offset mean log to gui: 1711549938.9085443
+Offset std log to gui: 0.0004903385467386032
+
+-> From gui to pupil
+Len of gui df: 1776428
+Len of pupil df: 1780360
+Len of gui trimsort df: 1776428
+Len of pupil trimsort df: 1776446
+
+-> Results
+Tolerance: 0.03
+Len of merge asof df: 1776446
+Matched values in x (pupil): 1702432
+Mean offset merged asof: 1711549938.8896227
+Std offset merged asof: 0.002292924818227741
+
+-----------------------------------------------------
+
+PARTICIPANT 19
+-> From logging to gui
+Len of log df: 786
+Len of gui df for log: 786
+Marker discrepancies: 0
+Offset mean log to gui: 1711617454.1125643
+Offset std log to gui: 0.001983757538991417
+
+-> From gui to pupil
+Len of gui df: 1669292
+Len of pupil df: 1668076
+Len of gui trimsort df: 1667078
+Len of pupil trimsort df: 1667080
+
+-> Results
+Tolerance: 0.03
+Len of merge asof df: 1667080
+Matched values in x (pupil): 1603395
+Mean offset merged asof: 1711617454.089709
+Std offset merged asof: 0.0019064997533042869
+
+-----------------------------------------------------
+
+PARTICIPANT 20
+-> From logging to gui
+Len of log df: 746
+Len of gui df for log: 746
+Marker discrepancies: 0
+Offset mean log to gui: 1711626350.8783722
+Offset std log to gui: 0.0007502377892309737
+
+-> From gui to pupil
+Len of gui df: 1737586
+Len of pupil df: 1737984
+Len of gui trimsort df: 1735110
+Len of pupil trimsort df: 1735110
+
+-> Results
+Tolerance: 0.03
+Len of merge asof df: 1735110
+Matched values in x (pupil): 1642487
+Mean offset merged asof: 1711626350.8593812
+Std offset merged asof: 0.0016124437080255506
+
+-----------------------------------------------------

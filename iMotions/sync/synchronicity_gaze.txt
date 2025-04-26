@@ -1,0 +1,286 @@
+-----------------------------------------------------
+
+PARTICIPANT 1
+Len of gui df: 1711
+Len of gaze df: 1000351
+Len of gui_trimsort df: 1711
+Len of gaze_trimsort df: 1000351
+
+Len of merge df: 1630
+Len of merge_asof df: 1000351
+Mean offset merged: -672862.8254689132
+Std offset merged: 0.010101152431444823
+Mean offset merged_asof: -672862.8254689132
+Std offset merged_asof: 0.010101152431444825
+
+-----------------------------------------------------
+
+PARTICIPANT 2
+Len of gui df: 32558
+Len of pupil df: 758055
+Len of gui_trimsort df: 31324
+Len of pupil_trimsort df: 758055
+
+Len of merge df: 31140
+Len of merge_asof df: 758055
+Mean offset merged: -664541.5826019697
+Std offset merged: 0.011213037927546807
+Mean offset merged_asof: -664541.5826019697
+Std offset merged_asof: 0.011213037927546807
+
+-----------------------------------------------------
+
+PARTICIPANT 4
+Len of gui df: 778077
+Len of gaze df: 762752
+Len of gui_trimsort df: 778077
+Len of gaze_trimsort df: 762752
+
+Len of merge df: 762104
+Len of merge_asof df: 762752
+Mean offset merged: -588022.8872828754
+Std offset merged: 0.016895081555496173
+Mean offset merged_asof: -588022.8872828754
+Std offset merged_asof: 0.016895081555496176
+
+-----------------------------------------------------
+
+PARTICIPANT 5
+Len of gui df: 913368
+Len of gaze df: 913029
+Len of gui_trimsort df: 913368
+Len of gaze_trimsort df: 913029
+
+Len of merge df: 912034
+Len of merge_asof df: 913029
+Mean offset merged: -578918.4627699562
+Std offset merged: 0.015107109620048447
+Mean offset merged_asof: -578918.4627699563
+Std offset merged_asof: 0.015107109620048447
+
+-----------------------------------------------------
+
+PARTICIPANT 6
+Len of gui df: 806637
+Len of gaze df: 805977
+Len of gui_trimsort df: 806637
+Len of gaze_trimsort df: 805977
+
+Len of merge df: 804776
+Len of merge_asof df: 805977
+Mean offset merged: 82154.6509890003
+Std offset merged: 0.012640083799283774
+Mean offset merged_asof: 82154.6509890003
+Std offset merged_asof: 0.012640083799283774
+
+-----------------------------------------------------
+
+PARTICIPANT 7
+Len of gui df: 790303
+Len of gaze df: 790892
+Len of gui_trimsort df: 790303
+Len of gaze_trimsort df: 790892
+
+Len of merge df: 789378
+Len of merge_asof df: 790892
+Mean offset merged: 349976.7095027074
+Std offset merged: 0.014610438012551172
+Mean offset merged_asof: 349976.70950270735
+Std offset merged_asof: 0.01461043801255117
+
+-----------------------------------------------------
+
+PARTICIPANT 8
+Len of gui df: 798749
+Len of gaze df: 793691
+Len of gui_trimsort df: 798032
+Len of gaze_trimsort df: 793691
+
+Len of merge df: 793649
+Len of merge_asof df: 793691
+Mean offset merged: 4109.203127473148
+Std offset merged: 0.015991843514550515
+Mean offset merged_asof: 4109.203127473147
+Std offset merged_asof: 0.01599184351455052
+
+-----------------------------------------------------
+
+PARTICIPANT 9
+Len of gui df: 807640
+Len of gaze df: 803341
+Len of gui_trimsort df: 805503
+Len of gaze_trimsort df: 803341
+
+Len of merge df: 803339
+Len of merge_asof df: 803341
+Mean offset merged: 22187.922874645683
+Std offset merged: 0.017805698308671642
+Mean offset merged_asof: 22187.92287464568
+Std offset merged_asof: 0.01780569830867164
+
+-----------------------------------------------------
+
+PARTICIPANT 10
+Len of gui df: 816544
+Len of gaze df: 816091
+Len of gui_trimsort df: 816544
+Len of gaze_trimsort df: 816091
+
+Len of merge df: 814943
+Len of merge_asof df: 816091
+Mean offset merged: 5416.868720654887
+Std offset merged: 0.01084875875008148
+Mean offset merged_asof: 5416.8687206548875
+Std offset merged_asof: 0.010848758750081483
+
+-----------------------------------------------------
+
+PARTICIPANT 11
+Len of gui df: 805078
+Len of gaze df: 801448
+Len of gui_trimsort df: 804040
+Len of gaze_trimsort df: 801448
+
+Len of merge df: 801444
+Len of merge_asof df: 801448
+Mean offset merged: 16531.242376280592
+Std offset merged: 0.009713719881618921
+Mean offset merged_asof: 16531.242376280596
+Std offset merged_asof: 0.009713719881618923
+
+-----------------------------------------------------
+
+PARTICIPANT 12
+Len of gui df: 801043
+Len of gaze df: 801744
+Len of gui_trimsort df: 801043
+Len of gaze_trimsort df: 801744
+
+Len of merge df: 799903
+Len of merge_asof df: 801744
+Mean offset merged: 84199.30305764823
+Std offset merged: 0.012397607230519586
+Mean offset merged_asof: 84199.30305764821
+Std offset merged_asof: 0.01239760723051959
+
+-----------------------------------------------------
+
+PARTICIPANT 13
+Len of gui df: 814402
+Len of gaze df: 907833
+Len of gui_trimsort df: 814402
+Len of gaze_trimsort df: 815384
+
+Len of merge df: 814394
+Len of merge_asof df: 815384
+Mean offset merged: 93620.0859753204
+Std offset merged: 0.01068343386325325
+Mean offset merged_asof: 93620.08597532041
+Std offset merged_asof: 0.010683433863253248
+
+-----------------------------------------------------
+
+PARTICIPANT 14
+Len of gui df: 323013
+Len of gaze df: 857561
+Len of gui_trimsort df: 323013
+Len of gaze_trimsort df: 323987
+
+Len of merge df: 323012
+Len of merge_asof df: 323987
+Mean offset merged: 99778.53439845199
+Std offset merged: 0.010193936300467027
+Mean offset merged_asof: 99778.53439845197
+Std offset merged_asof: 0.010193936300467025
+
+-----------------------------------------------------
+
+PARTICIPANT 15
+Len of gui df: 817196
+Len of gaze df: 814824
+Len of gui_trimsort df: 817196
+Len of gaze_trimsort df: 814824
+
+Len of merge df: 814076
+Len of merge_asof df: 814824
+Mean offset merged: 3135.887989666989
+Std offset merged: 0.013376659433486433
+Mean offset merged_asof: 3135.88798966699
+Std offset merged_asof: 0.013376659433486439
+
+-----------------------------------------------------
+
+PARTICIPANT 16
+Len of gui df: 776223
+Len of gaze df: 928474
+Len of gui_trimsort df: 776223
+Len of gaze_trimsort df: 777159
+
+Len of merge df: 776176
+Len of merge_asof df: 777159
+Mean offset merged: 87722.78483034429
+Std offset merged: 0.019103793234118902
+Mean offset merged_asof: 87722.78483034433
+Std offset merged_asof: 0.019103793234118906
+
+-----------------------------------------------------
+
+PARTICIPANT 17
+Len of gui df: 801725
+Len of gaze df: 801298
+Len of gui_trimsort df: 801725
+Len of gaze_trimsort df: 801298
+
+Len of merge df: 800687
+Len of merge_asof df: 801298
+Mean offset merged: 2655.8404129786127
+Std offset merged: 0.01194004737632296
+Mean offset merged_asof: 2655.8404129786127
+Std offset merged_asof: 0.01194004737632296
+
+-----------------------------------------------------
+
+PARTICIPANT 18
+Len of gui df: 888209
+Len of gaze df: 890179
+Len of gui_trimsort df: 888209
+Len of gaze_trimsort df: 889059
+
+Len of merge df: 888204
+Len of merge_asof df: 889059
+Mean offset merged: 4067.54887901145
+Std offset merged: 0.012154765751067803
+Mean offset merged_asof: 4067.548879011448
+Std offset merged_asof: 0.012154765751067805
+
+-----------------------------------------------------
+
+PARTICIPANT 19
+Len of gui df: 834644
+Len of gaze df: 834038
+Len of gui_trimsort df: 834644
+Len of gaze_trimsort df: 834038
+
+Len of merge df: 833519
+Len of merge_asof df: 834038
+Mean offset merged: 71583.78398800884
+Std offset merged: 0.012422883072455681
+Mean offset merged_asof: 71583.78398800883
+Std offset merged_asof: 0.012422883072455681
+
+-----------------------------------------------------
+
+PARTICIPANT 20
+Len of gui df: 868792
+Len of gaze df: 868990
+Len of gui_trimsort df: 868792
+Len of gaze_trimsort df: 868990
+
+Len of merge df: 867531
+Len of merge_asof df: 868990
+Mean offset merged: 80480.5438803016
+Std offset merged: 0.010797759985148
+Mean offset merged_asof: 80480.5438803016
+Std offset merged_asof: 0.010797759985148002
+
+-----------------------------------------------------

@@ -1,0 +1,242 @@
+-----------------------------------------------------
+
+PARTICIPANT 1
+Len of gui df: 70
+Len of pupil df: 2000704
+Len of gui trimsort df: 70
+Len of pupil trimsort df: 2000704
+
+Len of merge df: 0
+Len of merge_asof df: 2000704
+Mean offset merged: nan
+Std offset merged: nan
+Mean offset merged asof: nan
+Std offset merged asof: nan
+
+-----------------------------------------------------
+
+PARTICIPANT 2
+Len of gui df: 25
+Len of pupil df: 1516112
+Len of gui trimsort df: 25
+Len of pupil trimsort df: 1512092
+
+Len of merge df: 28
+Len of merge_asof df: 1512092
+Mean offset merged: -665617.6272787644
+Std offset merged: 890.6916427565357
+Mean offset merged asof: -665911.1086740455
+Std offset merged asof: 779.582300358675
+
+-----------------------------------------------------
+
+!!! PARTICIPANT 4 doesn't contain required columns
+
+-----------------------------------------------------
+
+!!! PARTICIPANT 5 doesn't contain required columns
+
+-----------------------------------------------------
+
+!!! PARTICIPANT 6 doesn't contain required columns
+
+-----------------------------------------------------
+
+!!! PARTICIPANT 7 doesn't contain required columns
+
+-----------------------------------------------------
+
+PARTICIPANT 8
+Len of gui df: 1597490
+Len of pupil df: 1587380
+Len of gui trimsort df: 1596028
+Len of pupil trimsort df: 1587380
+
+Len of merge df: 1559958
+Len of merge_asof df: 1587380
+Mean offset merged: 4109.2575532305345
+Std offset merged: 0.0015538221389046738
+Mean offset merged asof: 4109.257553304065
+Std offset merged asof: 0.0015540616445236736
+
+-----------------------------------------------------
+
+PARTICIPANT 9
+Len of gui df: 1615273
+Len of pupil df: 1606684
+Len of gui trimsort df: 1610978
+Len of pupil trimsort df: 1606684
+
+Len of merge df: 1541460
+Len of merge_asof df: 1606684
+Mean offset merged: 22187.97703676164
+Std offset merged: 0.0009566282038995429
+Mean offset merged asof: 22187.97703672082
+Std offset merged asof: 0.0009565443258474121
+
+-----------------------------------------------------
+
+PARTICIPANT 10
+Len of gui df: 1633102
+Len of pupil df: 1632188
+Len of gui trimsort df: 1633102
+Len of pupil trimsort df: 1632188
+
+Len of merge df: 1567920
+Len of merge_asof df: 1632188
+Mean offset merged: 5416.9226388258685
+Std offset merged: 0.0010184155393527605
+Mean offset merged asof: 5416.92263870804
+Std offset merged asof: 0.0010185332871037824
+
+-----------------------------------------------------
+
+PARTICIPANT 11
+Len of gui df: 1610158
+Len of pupil df: 1602898
+Len of gui trimsort df: 1608058
+Len of pupil trimsort df: 1602898
+
+Len of merge df: 1540032
+Len of merge_asof df: 1602898
+Mean offset merged: 16531.296070799923
+Std offset merged: 0.0008931742180851573
+Mean offset merged asof: 16531.296070843073
+Std offset merged asof: 0.0008931335310408102
+
+-----------------------------------------------------
+
+PARTICIPANT 12
+Len of gui df: 1602092
+Len of pupil df: 1603490
+Len of gui trimsort df: 1602092
+Len of pupil trimsort df: 1603490
+
+Len of merge df: 1519640
+Len of merge_asof df: 1603490
+Mean offset merged: 84199.35689823043
+Std offset merged: 0.00092066546218957
+Mean offset merged asof: 84199.35689554777
+Std offset merged asof: 0.0009202319056514787
+
+-----------------------------------------------------
+
+PARTICIPANT 13
+Len of gui df: 1628800
+Len of pupil df: 1815666
+Len of gui trimsort df: 1628800
+Len of pupil trimsort df: 1630742
+
+Len of merge df: 1538508
+Len of merge_asof df: 1630742
+Mean offset merged: 93620.13973314875
+Std offset merged: 0.001006916324112059
+Mean offset merged asof: 93620.139733137
+Std offset merged asof: 0.0010068354754641231
+
+-----------------------------------------------------
+
+PARTICIPANT 14
+Len of gui df: 646012
+Len of pupil df: 1715122
+Len of gui trimsort df: 646012
+Len of pupil trimsort df: 647940
+
+Len of merge df: 610992
+Len of merge_asof df: 647940
+Mean offset merged: 99778.5880785025
+Std offset merged: 0.001008610932749397
+Mean offset merged asof: 99778.58807834735
+Std offset merged asof: 0.0010086043613726362
+
+-----------------------------------------------------
+
+PARTICIPANT 15
+Len of gui df: 1634396
+Len of pupil df: 1629650
+Len of gui trimsort df: 1634396
+Len of pupil trimsort df: 1629650
+
+Len of merge df: 1550560
+Len of merge_asof df: 1629650
+Mean offset merged: 3135.9419407055802
+Std offset merged: 0.0010343217460471146
+Mean offset merged asof: 3135.9419403789816
+Std offset merged asof: 0.0010346697359956188
+
+-----------------------------------------------------
+
+PARTICIPANT 16
+Len of gui df: 1552440
+Len of pupil df: 1856948
+Len of gui trimsort df: 1552440
+Len of pupil trimsort df: 1554286
+
+Len of merge df: 1469681
+Len of merge_asof df: 1554286
+Mean offset merged: 87722.83890614662
+Std offset merged: 0.0008979894711137807
+Mean offset merged asof: 87722.83890598793
+Std offset merged asof: 0.000898015048832067
+
+-----------------------------------------------------
+
+PARTICIPANT 17
+Len of gui df: 1603439
+Len of pupil df: 1602598
+Len of gui trimsort df: 1603439
+Len of pupil trimsort df: 1602598
+
+Len of merge df: 1511617
+Len of merge_asof df: 1602598
+Mean offset merged: 2655.894116530593
+Std offset merged: 0.0008652057484604724
+Mean offset merged asof: 2655.8941165745155
+Std offset merged asof: 0.0008651488841632027
+
+-----------------------------------------------------
+
+PARTICIPANT 18
+Len of gui df: 1776428
+Len of pupil df: 1780360
+Len of gui trimsort df: 1776428
+Len of pupil trimsort df: 1778096
+
+Len of merge df: 1703596
+Len of merge_asof df: 1778096
+Mean offset merged: 4067.6027458793333
+Std offset merged: 0.004908002439134116
+Mean offset merged asof: 4067.6027457861605
+Std offset merged asof: 0.004909002020535595
+
+-----------------------------------------------------
+
+PARTICIPANT 19
+Len of gui df: 1669292
+Len of pupil df: 1668076
+Len of gui trimsort df: 1669292
+Len of pupil trimsort df: 1668076
+
+Len of merge df: 1604213
+Len of merge_asof df: 1668076
+Mean offset merged: 71583.83790804137
+Std offset merged: 0.0015035087365267792
+Mean offset merged asof: 71583.83790804863
+Std offset merged asof: 0.0015035274843810211
+
+-----------------------------------------------------
+
+PARTICIPANT 20
+Len of gui df: 1737586
+Len of pupil df: 1737984
+Len of gui trimsort df: 1737586
+Len of pupil trimsort df: 1737984
+
+Len of merge df: 1643959
+Len of merge_asof df: 1737984
+Mean offset merged: 80480.59764502419
+Std offset merged: 0.004410797948389711
+Mean offset merged asof: 80480.59764496642
+Std offset merged asof: 0.004411814755109096
+
+-----------------------------------------------------

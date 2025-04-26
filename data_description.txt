@@ -1,0 +1,202 @@
+### FOLDER STRUCTURE
+
+#### Main Directory: `./aggregated_data`
+- Contains CSV files with aggregated data from multiple participants (parameter-wise)
+- Subfolder: `all_surfaces` contains data related to the surfaces of interest detected during eye-tracking
+
+#### Subfolder: `./aggregated_data/all_surfaces`
+- Contains CSV files related to surface interactions during eye-tracking
+
+### CSV FILES AND COLUMN NAMES
+
+#### Files in `./aggregated_data`
+
+1. **all_blinks.csv**
+    - `participant_id`: Identifier for each participant
+    - `id`: Identifier for each blink event
+    - `start_timestamp`: Start timestamp of the blink
+    - `duration`: Duration of the blink
+    - `end_timestamp`: End timestamp of the blink
+    - `start_frame_index`: Frame index where the blink starts
+    - `index`: Index of the blink event
+    - `end_frame_index`: Frame index where the blink ends
+    - `confidence`: Confidence measure of the blink detection
+    - `filter_response`: Filter responses
+    - `base_data`: Relevant pupil timestamps
+
+2. **all_blink_detection_report.csv**
+    - `participant_id`: Identifier for each participant
+    - `key`: Key of the reported value
+    - `value`: Reported value
+
+3. **all_export_info.csv**
+    - `participant_id`: Identifier for each participant
+    - `key`: Key of the exported information
+    - `value`: Exported value
+
+4. **all_fixations.csv**
+    - `participant_id`: Identifier for each participant
+    - `id`: Identifier for each fixation
+    - `start_timestamp`: Start timestamp of the fixation
+    - `duration`: Duration of the fixation
+    - `start_frame_index`: Frame index where the fixation starts
+    - `end_frame_index`: Frame index where the fixation ends
+    - `norm_pos_x`: Normalized x-coordinate of the fixation
+    - `norm_pos_y`: Normalized y-coordinate of the fixation
+    - `dispersion`: Dispersion measure of the fixation (deg)
+    - `confidence`: Confidence measure of the fixation
+    - `method`: Method used for detecting the fixation
+    - `gaze_point_3d_x`: x-coordinate of the gaze point in 3D space
+    - `gaze_point_3d_y`: y-coordinate of the gaze point in 3D space
+    - `gaze_point_3d_z`: z-coordinate of the gaze point in 3D space
+    - `base_data`: Additional data related to the fixation
+
+5. **all_fixation_report.csv**
+    - `participant_id`: Identifier for each participant
+    - `fixation classifier`: Method or classifier used for detecting fixations
+    - `Dispersion_Duration`: Measure of dispersion and duration for fixations
+
+6. **all_gaze_positions.csv**
+    - `participant_id`: Identifier for each participant
+    - `gaze_timestamp`: Timestamp of the gaze position
+    - `world_index`: Index of the world frame
+    - `confidence`: Confidence measure of the gaze position
+    - `norm_pos_x`: Normalized x-coordinate of the gaze position
+    - `norm_pos_y`: Normalized y-coordinate of the gaze position
+    - `base_data`: Relevant pupil timestamp(s)
+    - `gaze_point_3d_x`: x-coordinate of the gaze point in 3D space
+    - `gaze_point_3d_y`: y-coordinate of the gaze point in 3D space
+    - `gaze_point_3d_z`: z-coordinate of the gaze point in 3D space
+    - `eye_center0_3d_x`: x-coordinate of the first eye center in 3D space
+    - `eye_center0_3d_y`: y-coordinate of the first eye center in 3D space
+    - `eye_center0_3d_z`: z-coordinate of the first eye center in 3D space
+    - `gaze_normal0_x`: x-component of the gaze normal vector for the first eye
+    - `gaze_normal0_y`: y-component of the gaze normal vector for the first eye
+    - `gaze_normal0_z`: z-component of the gaze normal vector for the first eye
+    - `eye_center1_3d_x`: x-coordinate of the second eye center in 3D space
+    - `eye_center1_3d_y`: y-coordinate of the second eye center in 3D space
+    - `eye_center1_3d_z`: z-coordinate of the second eye center in 3D space
+    - `gaze_normal1_x`: x-component of the gaze normal vector for the second eye
+    - `gaze_normal1_y`: y-component of the gaze normal vector for the second eye
+    - `gaze_normal1_z`: z-component of the gaze normal vector for the second eye
+
+7. **all_pupil_positions.csv**
+    - `participant_id`: Identifier for each participant
+    - `pupil_timestamp`: Timestamp of the pupil data
+    - `world_index`: Index of the world frame
+    - `eye_id`: Identifier for each eye
+    - `confidence`: Confidence measure of the pupil data
+    - `norm_pos_x`: Normalized x-coordinate of the pupil position
+    - `norm_pos_y`: Normalized y-coordinate of the pupil position
+    - `diameter`: Diameter of the pupil
+    - `method`: Method used for detecting the pupil
+    - `ellipse_center_x`: x-coordinate of the ellipse center fitting the pupil
+    - `ellipse_center_y`: y-coordinate of the ellipse center fitting the pupil
+    - `ellipse_axis_a`: Major axis of the ellipse fitting the pupil
+    - `ellipse_axis_b`: Minor axis of the ellipse fitting the pupil
+    - `ellipse_angle`: Angle of the ellipse fitting the pupil
+    - `diameter_3d`: Diameter of the pupil in 3D
+    - `model_confidence`: Confidence measure of the pupil model
+    - `model_id`: Identifier for the pupil model
+    - `sphere_center_x`: x-coordinate of the sphere center fitting the pupil
+    - `sphere_center_y`: y-coordinate of the sphere center fitting the pupil
+    - `sphere_center_z`: z-coordinate of the sphere center fitting the pupil
+    - `sphere_radius`: Radius of the sphere fitting the pupil
+    - `circle_3d_center_x`: x-coordinate of the 3D circle center fitting the pupil
+    - `circle_3d_center_y`: y-coordinate of the 3D circle center fitting the pupil
+    - `circle_3d_center_z`: z-coordinate of the 3D circle center fitting the pupil
+    - `circle_3d_normal_x`: x-component of the normal vector of the 3D circle fitting the pupil
+    - `circle_3d_normal_y`: y-component of the normal vector of the 3D circle fitting the pupil
+    - `circle_3d_normal_z`: z-component of the normal vector of the 3D circle fitting the pupil
+    - `circle_3d_radius`: Radius of the 3D circle fitting the pupil
+    - `theta`: Theta angle of the pupil position
+    - `phi`: Phi angle of the pupil position
+    - `projected_sphere_center_x`: x-coordinate of the projected sphere center
+    - `projected_sphere_center_y`: y-coordinate of the projected sphere center
+    - `projected_sphere_axis_a`: Major axis of the projected sphere
+    - `projected_sphere_axis_b`: Minor axis of the projected sphere
+    - `projected_sphere_angle`: Angle of the projected sphere
+
+8. **all_world_timestamps.csv**
+    - `participant_id`: Identifier for each participant
+    - `# timestamps [seconds]`: Timestamps in seconds
+    - `pts`: Presentation timestamps
+
+#### Files in `./aggregated_data/all_surfaces`
+
+1. **all_fixations_on_surface_HiDrive_Studie2.csv**
+    - `participant_id`: Identifier for each participant
+    - `world_timestamp`: Timestamp in the world coordinate system
+    - `fixation_id`: Identifier for each fixation
+    - `start_timestamp`: Start timestamp of the fixation
+    - `duration`: Duration of the fixation
+    - `dispersion`: Dispersion measure of the fixation
+    - `norm_pos_x`: Normalized x-coordinate of the fixation
+    - `norm_pos_y`: Normalized y-coordinate of the fixation
+    - `x_scaled`: Scaled x-coordinate on the surface
+    - `y_scaled`: Scaled y-coordinate on the surface
+    - `on_surf`: Indicator if the fixation is on the surface
+    - `world_indexes`: Indexes of the world frames
+
+2. **all_gaze_positions_on_surface_HiDrive_Studie2.csv**
+    - `participant_id`: Identifier for each participant
+    - `world_timestamp`: Timestamp in the world coordinate system
+    - `world_index`: Index of the world frame
+    - `gaze_timestamp`: Timestamp of the gaze position
+    - `x_norm`: Normalized x-coordinate of the gaze position
+    - `y_norm`: Normalized y-coordinate of the gaze position
+    - `x_scaled`: Scaled x-coordinate on the surface
+    - `y_scaled`: Scaled y-coordinate on the surface
+    - `on_surf`: Indicator if the gaze position is on the surface
+    - `confidence`: Confidence measure of the gaze position
+
+3. **all_marker_detections.csv**
+    - `participant_id`: Identifier for each participant
+    - `world_index`: Index of the world frame
+    - `marker_uid`: Unique identifier for each marker
+    - `corner_0_x`: x-coordinate of the first corner of the marker
+    - `corner_0_y`: y-coordinate of the first corner of the marker
+    - `corner_1_x`: x-coordinate of the second corner of the marker
+    - `corner_1_y`: y-coordinate of the second corner of the marker
+    - `corner_2_x`: x-coordinate of the third corner of the marker
+    - `corner_2_y`: y-coordinate of the third corner of the marker
+    - `corner_3_x`: x-coordinate of the fourth corner of the marker
+    - `corner_3_y`: y-coordinate of the fourth corner of the marker
+
+4. **all_saccades_on_surface.csv**
+    - 'participant_id': Identifier for each participant
+    - 'id': Identifier for each saccade
+    - 'start_timestamp': Start timestamp of the saccade
+    - 'end_timestamp': End timestamp of the saccade
+    - 'duration': Duration of the saccade
+    - 'amplitude': Distance covered by the saccade (deg)
+    - 'velocity': Average movement speed of the saccade (deg/s)
+
+5. **all_surf_positions_HiDrive_Studie2.csv**
+    - `participant_id`: Identifier for each participant
+    - `world_index`: Index of the world frame
+    - `world_timestamp`: Timestamp in the world coordinate system
+    - `img_to_surf_trans`: Transformation matrix from image to surface coordinates
+    - `surf_to_img_trans`: Transformation matrix from surface to image coordinates
+    - `num_detected_markers`: Number of detected markers
+    - `dist_img_to_surf_trans`: Distorted transformation matrix from image to surface coordinates
+    - `surf_to_dist_img_trans`: Distorted transformation matrix from surface to image coordinates
+    - `num_definition_markers`: Number of markers used for defining the surface
+
+6. **all_surface_events.csv**
+    - `participant_id`: Identifier for each participant
+    - `world_index`: Index of the world frame
+    - `world_timestamp`: Timestamp in the world coordinate system
+    - `surface_name`: Name of the detected surface
+    - `event_type`: Type of event related to the surface (enter/exit)
+
+7. **all_surface_gaze_distribution.csv**
+    - `participant_id`: Identifier for each participant
+    - `surface_name`: Name of the detected surface
+    - `gaze_count`: Number of gaze points on the surface
+
+8. **all_surface_visibility.csv**
+    - `participant_id`: Identifier for each participant
+    - `surface_name`: Name of the detected surface
+    - `visible_frame_count`: Number of frames the surface was visible
+

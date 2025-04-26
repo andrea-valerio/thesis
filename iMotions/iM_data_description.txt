@@ -1,0 +1,51 @@
+IMOTION DATA DESCRIPTION:
+
+GUI METRICS:
+button_click1: "Confirm and keep driving" clicked -> Result
+button_click2: "Confirm and stop driving" clicked -> Result
+button_click3: "Confirm and cancel trip" clicked -> Result
+on_item_clicked: task commenced
+Result: performance tracking (n_errors, participant-vs-correct answer)
+StartTask: task block begins (taskblock number)
+Stop_Tasks: amount of errors (?) -> Nope
+Task: task appears (expected answer)
+view1: "Front-right sensor" view clicked
+view2: "Front-left sensor" view clicked
+view3: "Rear-left sensor" viewclicked
+view4: "Rear-right sensor" view clicked
+view5: "Roof sensor" view clicked
+view6: "Inner room" view clicked   (!triggers view2 as well)
+
+NOTES:
+- Training time recorded in vp03 -> Manual annotation
+- Erroneous task window -> automation's start trigger set to "use last"
+- "inner room" (view6) click triggers also view 2 marker
+- Stop_Tasks doesn't reports errors, always 0
+
+- sv01 stimlus not present -> video file with wrong name
+- sv01 Stop_Tasks missing sometimes -> "use last" start trigger for blocks + manual marker + auto annotation
+- sv01 Stop_Tasks a little bit before Result -> manual annotation
+	-> some "Task" and "on_item_clicked" markers miss the corresponding "Result" and "button_click{n}"
+	-> some "time_on_start" annotations miss the corresponding "time_to_complete"
+	-> only 6 blocks
+- Can sv01 be added to the 2nd study file?
+
+!!! Result_Additional:  MAV#8880	0	[1, 0, 0, 0, 0, 0, 1, 2]	(1, 0, 0, 0, 0, 0, 1, 2)
+
+
+
+MOUSE METRICS:
+- totalTime: active time
+- totalDistance: distance
+- totalClicks: clicks
+
+- streakTime: active time in the last continuous gesture
+- streakDistance: distance (mm) in the last continuous gesture
+- streakClicks: clicks in the last continuous gesture.
+
+- speed: current speed
+- speedAvg: average speed since few seconds.
+- speedMax: maximum speed since few seconds.
+- clickRate: current click rate
+- clickRateAvg: average click rate since few seconds
+- clickRateMax: maximum click rate since few seconds

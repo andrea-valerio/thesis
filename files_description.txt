@@ -1,0 +1,24 @@
+LABEL DESRIPTION IN EXPORTS
+
+- surfaces:			(folder) Surfare tracker files
+- blink_detection_report:	blinks count and threshold
+- blinks:			blinks data
+- export_info:			pupil capture export info
+- fixation_report:		fixation count and threshold
+- fixations:			fixation data
+- gaze_positions:		gaze data
+- pupil_gaze_positions_info:	(txt) labelling info on gaze and pupil
+- pupil_positions:		pupil data
+- world:			(mp4) 	
+- world_timestamps:		timing of each frame (+ .npy version)	
+
+--- ´surfaces` subfolder ---
+- fixations_on_surface_<...>:	
+- gaze_positions_on_surface_<...>:	gaze data within the surface (relative)
+- heatmap_<...>:		gaze heatmap on the surface
+- marker_detection:		detected markers
+- saccades_on_surface:
+- surf_positions_<...>:		3D surface positions
+- surface_events:		surface entering/exiting images
+- surface_gaze_distributions:	gaze samples on-off surface
+- surface_visibility:		world camera frames the surface was contained in
