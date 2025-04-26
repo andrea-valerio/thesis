@@ -1,8 +1,6 @@
 # Master’s Thesis
 
-```markdown
 This thesis has been completed for the Master's in Human-Computer Interaction at the University of Trento, in collaboration with the Transportation Institute of the German Aerospace Center (DLR) in Braunschweig, as part of the European Hi-Drive project.
-```
 
 ## Analyzing Spatial Eye-Tracking Data of Teleoperators to Assess Workload in Automotive Fleet Management
 
@@ -13,6 +11,7 @@ With the rise of partially automated vehicles, teleoperation has emerged as a cr
 
 ## Repository Structure
 
+```
 ANALYSIS_OPEN_SOURCE/
 ├─ aggregated_data/        # Metric-wise aggregated CSVs (raw) *
 ├─ aoi_data/               # Extracted features CSVs
@@ -50,6 +49,7 @@ ANALYSIS_OPEN_SOURCE/
 	•	Jupyter Notebook/Lab
 	•	iMotions (for original raw-data visualization; processed logs included)
 	•	SoSci (for original questionnaire data collection)
+```
 
 ⸻
 
